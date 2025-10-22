@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ahmed Hussein - Economic Researcher & Business Analyst specializing in economic analysis, market studies, and business consulting.">
+    <meta name="keywords" content="Economic Researcher, Business Analyst, Economic Analysis, Market Studies, Business Consulting">
+    <meta name="author" content="Ahmed Hussein">
+    <title>Ahmed Hussein | Economic Researcher & Business Analyst</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button id="langBtn" class="lang-btn" onclick="toggleLanguage()">
+            <i class="fas fa-globe"></i>
+            <span id="langText">العربية</span>
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">AH</div>
+            <ul class="nav-menu">
+                <li><a href="#home" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                <li><a href="#about" data-en="About" data-ar="من أنا">About</a></li>
+                <li><a href="#services" data-en="Services" data-ar="الخدمات">Services</a></li>
+                <li><a href="#contact" data-en="Contact" data-ar="اتصل بي">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title" data-en="Ahmed Hussein" data-ar="أحمد حسين">Ahmed Hussein</h1>
+                <p class="hero-subtitle" data-en="Economic Researcher & Business Analyst" data-ar="باحث اقتصادي ومحلل أعمال">Economic Researcher & Business Analyst</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary" data-en="Get in Touch" data-ar="تواصل معي">Get in Touch</a>
+                    <a href="#services" class="btn btn-secondary" data-en="View Services" data-ar="اطلع على الخدمات">View Services</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="About Me" data-ar="من أنا">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="about-description" 
+                       data-en="I'm Ahmed Hussein, an economic researcher and business analyst specializing in economic analysis, market studies, and preparing economic reports and consulting for companies and individuals. With a deep understanding of economic principles and market dynamics, I help organizations make informed decisions and achieve sustainable growth."
+                       data-ar="أنا أحمد حسين، باحث اقتصادي ومحلل أعمال متخصص في التحليل الاقتصادي، ودراسات السوق، وإعداد التقارير الاقتصادية والاستشارات للشركات والأفراد. مع فهم عميق للمبادئ الاقتصادية وديناميكيات السوق، أساعد المؤسسات على اتخاذ قرارات مستنيرة وتحقيق النمو المستدام.">
+                        I'm Ahmed Hussein, an economic researcher and business analyst specializing in economic analysis, market studies, and preparing economic reports and consulting for companies and individuals. With a deep understanding of economic principles and market dynamics, I help organizations make informed decisions and achieve sustainable growth.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-chart-line"></i>
+                            <h3 data-en="Expert Analysis" data-ar="تحليل متخصص">Expert Analysis</h3>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-briefcase"></i>
+                            <h3 data-en="Business Insights" data-ar="رؤى الأعمال">Business Insights</h3>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-handshake"></i>
+                            <h3 data-en="Trusted Consulting" data-ar="استشارات موثوقة">Trusted Consulting</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Services" data-ar="الخدمات">Services</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle" 
+                   data-en="Comprehensive economic and business analysis services tailored to your needs"
+                   data-ar="خدمات التحليل الاقتصادي والأعمال الشاملة المصممة وفقًا لاحتياجاتك">
+                    Comprehensive economic and business analysis services tailored to your needs
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3 class="service-title" 
+                        data-en="Economic Analysis" 
+                        data-ar="التحليل الاقتصادي">Economic Analysis</h3>
+                    <p class="service-description" 
+                       data-en="Comprehensive economic analysis for companies and markets, providing deep insights into economic trends and opportunities."
+                       data-ar="تحليل اقتصادي شامل للشركات والأسواق، يوفر رؤى عميقة حول الاتجاهات والفرص الاقتصادية.">
+                        Comprehensive economic analysis for companies and markets, providing deep insights into economic trends and opportunities.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3 class="service-title" 
+                        data-en="Economic Reports & Feasibility Studies" 
+                        data-ar="التقارير الاقتصادية ودراسات الجدوى">Economic Reports & Feasibility Studies</h3>
+                    <p class="service-description" 
+                       data-en="Preparation of detailed economic reports and feasibility studies to support strategic decision-making and project evaluation."
+                       data-ar="إعداد تقارير اقتصادية مفصلة ودراسات جدوى لدعم اتخاذ القرارات الاستراتيجية وتقييم المشاريع.">
+                        Preparation of detailed economic reports and feasibility studies to support strategic decision-making and project evaluation.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="service-title" 
+                        data-en="Business Data Analysis" 
+                        data-ar="تحليل بيانات الأعمال">Business Data Analysis</h3>
+                    <p class="service-description" 
+                       data-en="Advanced business data analysis and decision support systems to optimize performance and drive growth."
+                       data-ar="تحليل بيانات الأعمال المتقدم وأنظمة دعم القرار لتحسين الأداء ودفع النمو.">
+                        Advanced business data analysis and decision support systems to optimize performance and drive growth.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="service-title" 
+                        data-en="Economic Consulting" 
+                        data-ar="الاستشارات الاقتصادية">Economic Consulting</h3>
+                    <p class="service-description" 
+                       data-en="Professional economic consulting services for individuals and organizations seeking expert guidance and strategic advice."
+                       data-ar="خدمات استشارات اقتصادية احترافية للأفراد والمؤسسات التي تسعى للحصول على إرشادات الخبراء والمشورة الاستراتيجية.">
+                        Professional economic consulting services for individuals and organizations seeking expert guidance and strategic advice.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Get in Touch" data-ar="تواصل معي">Get in Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle" 
+                   data-en="Let's discuss how I can help your business grow"
+                   data-ar="دعنا نناقش كيف يمكنني مساعدة عملك على النمو">
+                    Let's discuss how I can help your business grow
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3 data-en="email" data-ar="البريد الإلكتروني">email</h3>
+                            <p>aburefahmed@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/aborefaay</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:aburefahmed@gmail.com" class="social-link" aria-label="email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/aborefaay" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" data-en="name" data-ar="الاسم">name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-en="email" data-ar="البريد الإلكتروني">email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-en="message" data-ar="الرسالة">message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-en="Send Message" data-ar="إرسال الرسالة">Send Message</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-en="© Ahmed Hussein 2025 – All rights reserved." data-ar="© أحمد حسين 2025 – جميع الحقوق محفوظة.">© Ahmed Hussein 2025 – All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
